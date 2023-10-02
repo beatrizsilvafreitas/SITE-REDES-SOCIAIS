@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#iphone {
+    background-image: url(imagens/frame-iphone.png);
+    width: 30vw;
+    height: 90vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:1000px) {
+    #iphone {
+        min-width: 40vw;;
+    }
+    
+}
+
+@media screen and (max-width:650px) {
+    #iphone {
+        min-width: 46vw;;
+    }
+    
+}
