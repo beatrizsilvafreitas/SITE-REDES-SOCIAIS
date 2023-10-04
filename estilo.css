@@ -89,7 +89,7 @@ body {
 
 
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1300px) {
     #iphone {
         min-width: 40vw;
     }
