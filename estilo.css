@@ -91,7 +91,7 @@ body {
     
     .container-celular {
         width: 51.5vw;
-        height: 45vh;
+        height: 46vh;
     }
 
     .logo {
@@ -100,6 +100,6 @@ body {
     }
     
     #lista-redes {
-        margin-left: 25vw;
+        margin-left: 22vw;
     }
 }
