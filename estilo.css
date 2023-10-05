@@ -34,27 +34,14 @@ body {
     overflow: auto;
 }
 
-.img-de-fundo {
-    /* max-width: 100%;
-    height: 98%;
-    margin-top: 2%; */
-    max-width: 100%;
-    min-width: 100%;
-}
-
 .container-celular {
-    /* max-width: 60%;
-    height: 77%;
-    border-radius: 5px;
-    overflow: auto; */
-
-    min-width: 20%;
-    max-width: 20%;
-    height: 77%;
-    border-radius: 5px;
+    width: 18.5vw;
+    height: 68.5vh;
+    border-radius: 4px;
     overflow: auto;
     scrollbar-width: thin;
     scrollbar-color: transparent transparent;
+
 }
 
 .container-celular::-webkit-scrollbar {
@@ -63,6 +50,11 @@ body {
 
 .container-celular::-webkit-scrollbar-thumb {
     background-color: transparent;
+}
+
+
+.img-de-fundo {
+    width: 100%; 
 }
 
 #lista-redes {
@@ -89,38 +81,10 @@ body {
 
 
 
-@media screen and (max-width:1300px) {
-    #iphone {
-        min-width: 40vw;
+@media screen and (max-width:800px) {
+     .container-celular {
+        width: 83.5vw;
+        height: 68.5vh;
     }
-
-}
-
-@media screen and (max-width:650px) {
-    #iphone {
-        min-width: 46vw;
-    }
-
-    .logo {
-        width: 6vw;
-        height: 6vh;
-        border-radius: 50%;
-        margin: 4px;
-    }
-
-}
-
-@media screen and (max-width:450px) {
-    #iphone {
-        width: 90vw;
-        height: 50vh;
-        min-width: 52vw;
-    }
-
-    .logo {
-        width: 8vw;
-        height: 5vh;
-        border-radius: 50%;
-        margin: 4px;
-    }
+    
 }
