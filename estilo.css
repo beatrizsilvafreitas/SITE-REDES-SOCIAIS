@@ -82,7 +82,7 @@ body {
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:499px) {
     #iphone {
         width: 60vw;
         height: 60vh;
@@ -90,8 +90,8 @@ body {
     } 
     
     .container-celular {
-        width: 52.5vw;
-        height: 47vh;
+        width: 52vw;
+        height: 46.5vh;
     }
 
     .logo {
@@ -101,5 +101,29 @@ body {
     
     #lista-redes {
         margin-left: 24vw;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .container-celular {
+        width: 19.5vw;
+    }
+}
+
+@media screen and (max-width:1155px) {
+    .container-celular {
+        width: 22vw;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .container-celular {
+        width: 25.5vw;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .container-celular {
+        width: 32.5vw;
     }
 }
