@@ -82,39 +82,6 @@ body {
 
 
 
-@media screen and (max-width:499px) {
-    #iphone {
-        width: 60vw;
-        height: 60vh;
-        margin-left: 10vw;
-    } 
-    
-    .container-celular {
-        width: 52vw;
-        height: 46.5vh;
-    }
-
-    .logo {
-        width: 7vw;
-        height: 7vh;
-    }
-    
-    #lista-redes {
-        margin-left: 23vw;
-    }
-}
-
-@media screen and (max-width:1300px) {
-    .container-celular {
-        width: 19.5vw;
-    }
-
-    .img-de-fundo {
-        width: 100%; 
-    }
-}
-
-
 @media screen and (max-width:1200px) {
     .container-celular {
         width: 22vw;
@@ -159,5 +126,37 @@ body {
 @media screen and (max-width: 550px) {
     .container-celular {
         width: 47.5vw;
+    }
+}
+
+@media screen and (max-width:499px) {
+    #iphone {
+        width: 60vw;
+        height: 60vh;
+        margin-left: 10vw;
+    } 
+    
+    .container-celular {
+        width: 52vw;
+        height: 46.5vh;
+    }
+
+    .logo {
+        width: 7vw;
+        height: 7vh;
+    }
+    
+    #lista-redes {
+        margin-left: 23vw;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .container-celular {
+        width: 19.5vw;
+    }
+
+    .img-de-fundo {
+        width: 100%; 
     }
 }
