@@ -29,8 +29,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100vw;
-    max-height: 100vh;
+    /* max-width: 100vw;
+    max-height: 100vh; */
     overflow: auto;
 }
 
@@ -82,9 +82,14 @@ body {
 
 
 @media screen and (max-width:800px) {
-     .container-celular {
-        width: 83.5vw;
-        height: 68.5vh;
+    #iphone {
+        width: 75vw;
+        height: 75vh;
+    } 
+    
+    .container-celular {
+        width: 65.5vw;
+        height: 52.5vh;
     }
     
 }
