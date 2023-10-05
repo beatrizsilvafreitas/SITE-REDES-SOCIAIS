@@ -85,16 +85,18 @@ body {
     #iphone {
         width: 60vw;
         height: 60vh;
+        margin-left: 1vw;
     } 
     
     .container-celular {
         width: 52.5vw;
-        height: 41.5vh;
+        height: 42.5vh;
     }
 
     .logo {
         width: 7vw;
         height: 7vh;
+        margin-right: 1vw;
 
     }
     
