@@ -134,30 +134,30 @@ body {
 }
 @media screen and (max-width: 900px) {
     .container-celular {
-        width: 27.5vw;
+        width: 29.5vw;
     }
 }
 
 @media screen and (max-width: 800px) {
     .container-celular {
-        width: 30.5vw;
+        width: 32.5vw;
     }
 }
 
 @media screen and (max-width: 700px) {
     .container-celular {
-        width: 31.5vw;
+        width: 38.5vw;
     }
 }
 
 @media screen and (max-width: 600px) {
     .container-celular {
-        width: 37.5vw;
+        width: 43vw;
     }
 }
 
 @media screen and (max-width: 550px) {
     .container-celular {
-        width: 42.5vw;
+        width: 47.5vw;
     }
 }
