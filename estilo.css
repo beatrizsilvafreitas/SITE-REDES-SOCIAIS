@@ -83,13 +83,19 @@ body {
 
 @media screen and (max-width:800px) {
     #iphone {
-        width: 75vw;
-        height: 75vh;
+        width: 60vw;
+        height: 60vh;
     } 
     
     .container-celular {
-        width: 65.5vw;
-        height: 52.5vh;
+        width: 52.5vw;
+        height: 41.5vh;
+    }
+
+    .logo {
+        width: 7vw;
+        height: 7vh;
+
     }
     
 }
