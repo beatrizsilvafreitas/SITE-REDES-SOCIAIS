@@ -100,7 +100,7 @@ body {
     }
     
     #lista-redes {
-        margin-left: 24vw;
+        margin-left: 23vw;
     }
 }
 
@@ -108,11 +108,22 @@ body {
     .container-celular {
         width: 19.5vw;
     }
+
+    .img-de-fundo {
+        width: 100%; 
+    }
 }
 
-@media screen and (max-width:1155px) {
+
+@media screen and (max-width:1200px) {
     .container-celular {
         width: 22vw;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .container-celular {
+        width: 23.5vw;
     }
 }
 
@@ -121,9 +132,32 @@ body {
         width: 25.5vw;
     }
 }
-
-@media screen and (max-width:800px) {
+@media screen and (max-width: 900px) {
     .container-celular {
-        width: 32.5vw;
+        width: 27.5vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container-celular {
+        width: 30.5vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container-celular {
+        width: 31.5vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container-celular {
+        width: 37.5vw;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container-celular {
+        width: 42.5vw;
     }
 }
