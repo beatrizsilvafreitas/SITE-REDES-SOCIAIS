@@ -86,12 +86,12 @@ body {
     #iphone {
         width: 60vw;
         height: 60vh;
-        margin-left: 5vw
+        margin-left: 10vw;
     } 
     
     .container-celular {
-        width: 51.5vw;
-        height: 46vh;
+        width: 52.5vw;
+        height: 47vh;
     }
 
     .logo {
@@ -100,6 +100,6 @@ body {
     }
     
     #lista-redes {
-        margin-left: 22vw;
+        margin-left: 24vw;
     }
 }
